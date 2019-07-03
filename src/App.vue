@@ -2,11 +2,6 @@
   <div>
     <Header />
     <div class="wrapper">
-      <!-- Sidebar -->
-      <nav id="sidebar">
-        <Sidebar />
-      </nav>
-
       <!-- Page Content -->
       <div id="content">
         <!-- We'll fill this with dummy content -->
@@ -19,13 +14,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 
 import Header from "./components/header.components";
-import Sidebar from "./components/sidebar.component";
 
 export default {
   name: "app",
   components: {
-    Header,
-    Sidebar
+    Header
   }
 };
 </script>
